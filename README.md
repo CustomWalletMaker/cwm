@@ -1,4 +1,4 @@
-# NEWSITE: Secure Solana Address Generator
+# CWM: Secure Solana Address Generator
 
 ## 🔒 Why This Is Safe
 
@@ -29,7 +29,7 @@ To run the project locally:
 ```sh
 # Clone the repository
 git clone https://github.com/CustomWalletMaker/cwm
-cd NEWSITE
+cd cwm
 
 # Install dependencies
 npm install
