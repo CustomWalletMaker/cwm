@@ -4,7 +4,7 @@
 
 CWM is designed with **security and transparency** in mind to ensure that users can generate Solana wallet addresses safely. Here’s how we ensure security:
 
-- **Decentralized Application: CustomWalletMaker never generates, stores or transmits private keys. Wallets, and their associated keys are generated client-sided utilizing the open source framework and remain solely with the user and their machine.
+- **Decentralized Application**: CustomWalletMaker never generates, stores or transmits private keys. Wallets, and their associated keys are generated client-sided utilizing the open source framework and remain solely with the user and their machine.
 - **Open-Source Code**: Anyone can inspect the source code to verify that there are no hidden vulnerabilities or backdoors. We furthermore minimize dependencies by only using trusted, well-maintained libraries to reduce the risk of third-party exploits.
 - **No External API Calls**: The generator runs entirely within your browser, meaning private keys are never sent over the internet.
 - **Minimal Dependencies**: We use only trusted, well-maintained libraries to reduce the risk of third-party exploits.
