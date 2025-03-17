@@ -1,11 +1,11 @@
 # CWM: Secure Solana Address Generator
 
-## 🔒 Why This Is Safe
+## 🔒 Security
 
-This project is designed with **security and transparency** in mind to ensure that users can generate Solana wallet addresses safely. Here’s how we ensure security:
+CWM is designed with **security and transparency** in mind to ensure that users can generate Solana wallet addresses safely. Here’s how we ensure security:
 
-- **No Private Key Storage**: The application **never** stores or transmits private keys. They are generated client-side and remain with the user.
-- **Open-Source Code**: Anyone can inspect the source code to verify that there are no hidden vulnerabilities or backdoors.
+- **Decentralized Application: CustomWalletMaker never generates, stores or transmits private keys. Wallets, and their associated keys are generated client-sided utilizing the open source framework and remain solely with the user and their machine.
+- **Open-Source Code**: Anyone can inspect the source code to verify that there are no hidden vulnerabilities or backdoors. We furthermore minimize dependencies by only using trusted, well-maintained libraries to reduce the risk of third-party exploits.
 - **No External API Calls**: The generator runs entirely within your browser, meaning private keys are never sent over the internet.
 - **Minimal Dependencies**: We use only trusted, well-maintained libraries to reduce the risk of third-party exploits.
 
@@ -13,7 +13,7 @@ This project is designed with **security and transparency** in mind to ensure th
 
 1. **Client-Side Key Generation**: Using a secure cryptographic library, the app generates a **Solana key pair** directly in your browser.
 2. **Instant Wallet Address Display**: The public address is displayed immediately for user convenience.
-3. **Download & Save**: Users can securely copy or download their generated key pairs.
+3. **Copy & Save**: Users can securely copy their generated key pairs.
 
 ## 🚀 Features
 
@@ -46,7 +46,7 @@ npm run build
 
 Then, upload the `build/` folder to your hosting service.
 
-## 🛡️ Security Best Practices
+## 🛡️ Security recommendations
 
 - Always generate your keys on a **trusted** device.
 - Store private keys in a **safe place**, such as a hardware wallet.
